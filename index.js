@@ -7,19 +7,19 @@ const fs = require("fs");
 const dl = require("./lib/downloadImage.js");
 const fetch = require('node-fetch');
 const urlencode = require("urlencode");
-const axios = require("axios");
+const               axios               =               membutuhkan ( "axios" );
 const menu = require("./lib/menu.js");
 const tambahan = require("./lib/tambahan.js")
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'REUZ BOT☄'; 
+const    BotName    =    'Ꮓaki❦ BOT☄' ;
 const  instagram  =  'https://www.instagram.com/ry.zki07/?igshid=q4bab3m5gxgq' ;
 const   telegram 
-const    kapanbotaktif    =    'KETIKA HANYA DIAKTIFKAN'
-const  youtube  =  'https://www.youtube.com/c/reuz_id' ;
+const     kapanbotaktif     =     'Jɪᴋᴀ Aʟʟᴀʜ ᴍᴇɴɢʜᴇɴᴅᴀᴋɪ 😭'
+const        '' ;
 //const grupch1 = 'belum ada grup'; 
-//const grupch2 = 'belum ada grup' ; 
+
 const
 {
    WAConnection,
