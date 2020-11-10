@@ -1,4 +1,4 @@
-## REUZSC
+## Bot WhatsApp WhatsApp
 BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 
 
@@ -16,15 +16,15 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 > pkg install ffmpeg
 > pkg install nodejs
 > apt update && apt upgrade
-> git clone https://github.com/benisadewa/reuzsc
-> cd reuzsc
+> git clone https://github.com/zaki178/botwabot
+> cd botwabot
 > bash install.sh
 > node index.js
 ```
 
 
 # FITUR
-
+</s>    </s>    </s>    </s>    </s>    </s>    </s>    </s>    </s>    </s>    </s>    </s>    </ s>    </s>    </s>    </s>    </s>    </s>    </s>    </s>    </s>    </s>    </s>    </s>   </s>    </s>    </s> orang </s>
 | KEADAAN       |               FITUR     |
 | :-----------: | :--------------------------------:  |
 |       ✅       |    PANTUN                         |
