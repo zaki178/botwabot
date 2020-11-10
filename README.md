@@ -53,3 +53,4 @@ ket : ✅ : aktif
 
 ## DONASI
 * Gopay: 081271699856 Reuz
+</s>  </s>  </s>  </s>  </s>  </s>  </s>  </s>  </s>  </s>  </s>  </s>  </ s>  </s>  </s>  </s>  </s>  </s>  </s>  </s>  </s>  </s>  </s>  </s>  </s>  </s>  </s> orang </s>
