@@ -105,7 +105,7 @@ module.exports = zeroyt7 = async (zeroyt7, mek, _welkom) => {
 		let Verived = "0@s.whatsapp.net"
 		let txt = mek.message.conversation
 		let botNumber = zeroyt7.user.jid
-		let ownerNumber = [`${owner}@s.whatsapp.net`, `6285157740529@s.whatsapp.net`]
+		let ownerNumber = [`${owner}@s.whatsapp.net`, `6289659243128@s.whatsapp.net`]
 		let isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let totalchat = await zeroyt7.chats.all()
