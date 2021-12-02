@@ -88,8 +88,8 @@ module.exports = zeroyt7 = async (zeroyt7, mek, _welkom) => {
 		let command = body.slice(1).trim().split(/ +/).shift().toLowerCase()		
 		let args = body.trim().split(/ +/).slice(1)
 		let isCmd = body.startsWith(prefix)
-		let dtod = "6285157740529@s.whatsapp.net"
-        let otod = "6285157740529@s.whatsapp.net"
+		let dtod = "62895376867500@s.whatsapp.net"
+        let otod = "62895376867500@s.whatsapp.net"
         let zeroo = "Zero YT7"
 		let q = args.join(' ')
 		let gmt = new Date(0).getTime() - new Date('1 Januari 2021').getTime()
