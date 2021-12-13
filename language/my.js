@@ -4,37 +4,37 @@
    *
 */
 exports.wait = () => {
-	return `\`\`\`[ ! ] Wait a moment...\`\`\``
+	return `\`\`\`[ ! ] Tunggu sebentar...\`\`\``
 	}
 exports.success = () => {
-	return `\`\`\`[ ✓ ]\`\`\` Finished ...`
+	return `\`\`\`[ ✓ ]\`\`\` Selesai ...`
 	}
 exports.successBc = () => {
-	return `\`\`\`[ ✓ ]\`\`\` Broadcast Success`
+	return `\`\`\`[ ✓ ]\`\`\` Sukses Broadcast`
 	}
 exports.wrongFormat = () => {
-	return `\`\`\`[ x ]\`\`\` The format is wrong, try checking again in the menu`
+	return `\`\`\`[ x ]\`\`\` Format salah, coba cek lagi di menu`
 	}
 exports.erorStik = () => {
-	return `\`\`\`[ x ]\`\`\` That's not a sticker`
+	return `\`\`\`[ x ]\`\`\` Itu bukan stiker`
 	}
 exports.tagStik = () => {
-	return `\`\`\`[ x ]\`\`\` Reply/tag the sticker`
+	return `\`\`\`[ x ]\`\`\` Reply/tag stiker nya`
 	}
 exports.erorLink = () => {
-	return `\`\`\`[ x ]\`\`\` Invalid link`
+	return `\`\`\`[ x ]\`\`\` Linknya invalid`
 	}
 exports.onlygc = () => {
-	return `\`\`\`[ x ]\`\`\` This feature is group-specific`
+	return `\`\`\`[ x ]\`\`\` Khusus Group`
 	}
 exports.onlyOwner = () => {
-	return `\`\`\`[ x ]\`\`\` Special Owner Bot`
+	return `\`\`\`[ x ]\`\`\` Khusus Owner Bot`
 	}
 exports.benned = () => {
-	return `\`\`\`[ x ]\`\`\` Sorry, your number has been blocked`
+	return `\`\`\`[ x ]\`\`\` Maaf, nomor kamu telah di blokir`
 	}
 exports.onlygcAdmin = () => {
-	return `\`\`\`[ x ]\`\`\` Group admin only`
+	return `\`\`\`[ x ]\`\`\` Khusus Admin grup`
 	}
 exports.cariCecan = () => {
 	return `\`\`\`[ ! ]\`\`\` Mencari cecan`
@@ -43,25 +43,25 @@ exports.cariCogan = () => {
 	return `\`\`\`[ ! ]\`\`\` Mencari cogan`
 	}
 exports.pesanBot = () => {
-	return `\`\`\`[ x ]\`\`\` Reply to the bot message`
+	return `\`\`\`[ x ]\`\`\` Reply pesan botnya`
 	}
 exports.replyFoto = () => {
-	return `\`\`\`[ x ]\`\`\` Reply photo`
+	return `\`\`\`[ x ]\`\`\` Reply fotonya`
 	}
 exports.tagUser = () => {
-	return `\`\`\`[ x ]\`\`\` Tags @user`
+	return `\`\`\`[ x ]\`\`\` Tag @user`
 	}
 exports.noReply = () => {
-	return `\`\`\`[ x ]\`\`\` The message you replied to did not contain a reply`
+	return `\`\`\`[ x ]\`\`\` Pesan yang kamu reply tidak mengandung reply`
 	}
 exports.changeNmGc = () => {
-	return `\`\`\`[ ✓ ]\`\`\` Successful Change of Group Name`
+	return `\`\`\`[ ✓ ]\`\`\` Sukses  Mengubah Nama Grup`
 	}
 exports.changeDeskGc = () => {
-	return `\`\`\`[ ✓ ]\`\`\` Successfully Changed Group Desk`
+	return `\`\`\`[ ✓ ]\`\`\` Sukses  Mengubah Desk Grup`
 	}
 exports.spam = (prefix, command) => {
-	return `\`\`\`[ x ]\`\`\` Example ${prefix + command} text|amount`
+	return `\`\`\`[ x ]\`\`\` Example ${prefix + command} teks|jumlah`
 	}
 exports.tahta = (prefix, command) => {
 	return `\`\`\`[ x ]\`\`\` Example ${prefix + command} zeeone|ofc`
@@ -70,16 +70,16 @@ exports.noteks = (prefix, command) => {
 	return `\`\`\`[ x ]\`\`\` Example ${prefix + command} zeeone`
 	}
 exports.botNotAdm = () => {
-	return `Make bot as admin to use this command`
+	return `Jadikan bot sebagai admin u/ menggunakan perintah ini`
 	}
 exports.tryAgain = () => {
-	return `\`\`\`[ x ]\`\`\`  Failed, try again ^_^`
+	return `\`\`\`[ x ]\`\`\`  Gagal, coba ulangi ^_^`
 	}
 exports.anlinOn = () => {
-	return `\`\`\`[ ✓ ]\`\`\` Antilink Activated`
+	return `\`\`\`[ ✓ ]\`\`\` Antilink Di Aktifkan`
 	}
 exports.anlinOff = () => {
-	return `\`\`\`[ ✓ ]\`\`\` Antilink Disabled`
+	return `\`\`\`[ ✓ ]\`\`\` Antilink Di Nonaktifkan`
 	}
 exports.notregis = (prefix, sender) => {
 	return `Hai @${sender.split("@")[0]} kamu belum terdaftar di database, silahkan ketik ${prefix}verify\n\nKamu juga bisa daftar dengan cara mengirimkan kode verifikasi dari web api\nhttps://api-alphabot.herokuapp.com/api/verification`
@@ -88,71 +88,71 @@ exports.udahregis = (pushname) => {
 	return `Hai ${pushname} kamu sudah terdaftar di database`
 	}
 exports.enNum = () => {
- return `\`\`\`[ x ]\`\`\` Enter Numbers Correctly`
+ return `\`\`\`[ x ]\`\`\` Masukan Angka Dengan Benar`
  }
 exports.adminGc = () => {
- return `Because you are the admin so the bot will not log you out`
+ return `Karena kamu adalah admin jadi bot tidak akan mengeluarkan kamu`
  }
  exports.izinDt = () => {
- return `Permission accepted`
+ return `Izin diterima`
  }
  exports.anjawaOn = (command) => {
-	return `\`\`\`[ ✓ ]\`\`\` ${command} Activated`
+	return `\`\`\`[ ✓ ]\`\`\` ${command} Di Aktifkan`
 	}
 exports.anjawaOff = (command) => {
-	return `\`\`\`[ ✓ ]\`\`\` ${command} Disabled`
+	return `\`\`\`[ ✓ ]\`\`\` ${command} Di Nonaktifkan`
 	}
 exports.anjawaUdhOn = (command) => {
-	return `\`\`\`[ ✓ ]\`\`\` ${command} been active before`
+	return `\`\`\`[ ✓ ]\`\`\` ${command} sudah aktif`
 	}
 exports.anjawaUdhOon = (command) => {
-	return `Select on to activate, off to disable`
+	return `Pilih on untuk mengaktifkan, off untuk menonaktifkan`
 	}
 exports.onORoff = (command) => {
-	return `Select on to activate, off to disable`
+	return `Pilih on untuk mengaktifkan, off untuk menonaktifkan`
 	}
 exports.gcOpen = (command) => {
-	return `\`\`\`[ ✓ ]\`\`\` ${command} Successfully opened group`
+	return `\`\`\`[ ✓ ]\`\`\` ${command} Berhasil membuka grup`
 	}
 exports.gcClose = (command) => {
-	return `\`\`\`[ ✓ ]\`\`\` ${command} Successfully Close group `
+	return `\`\`\`[ ✓ ]\`\`\` ${command} Berhasil Menutup grup`
 	}
 exports.nsfwmo= () => {
-	return `The nsfw feature has not been activated, contact the bot owner to activate it`
+	return `Fitur nsfw belum di aktifkan, hubungi owner bot u/ mengaktifkan`
 	}
 exports.erorCode = () => {
  return `Kode yang anda masukkan salah silahkan cek kembali\nhttps://api-alphabot.herokuapp.com/api/verification`
  }
  exports.callOwner = () => {
- return `Contact the owner to use this feature`
+ return `Hubungi owner untuk menggunakan fitur ini`
  }
  //vote
 exports.noSesiVote = () => {
- 	return`No voting session`
+ 	return`Tidak ada sesi voting`
  }
 exports.suksesDelVot = () => {
-	return`Successfully Deleting Voting Session In This Group`
+	return`Sukses Menghapus sesi Voting Di Grup Ini`
 	}
 exports.adaVoting = () => {
-	return`Voting Session In Progress In This Group`
+	return`Sesi Voting Sedang Berlangsung Di Grup Ini`
 	}
 exports.caraVoting = (prefix, command) => {
-    return`*Voting*\n\n${prefix + command} @tag target | reason  | 1 (1 = 1 Minute)`
+    return`*Voting*\n\n${prefix + command} @tag target | reason  | 1 (1 = 1 Menit)`
     }
 exports.caraVot = () => {
- 	return`Enter number in line 3\nContoh: 1-9999\n1 = 1 Minute`
+ 	return`masukan angka di baris ke 3\nContoh: 1-9999\n1 = 1 Menit`
     }
 //ttt
 exports.noSesiTtt = () =>{
-	return`There is no tictactoe session in this group`
+	return`Tidak ada sesi tictactoe di grup ini`
 	}
 exports.suksesDelTtt = () =>{
-	return`Successfully deleted tictactoe session in this group`
+	return`Berhasil menghapus sesi tictactoe di grup ini`
 	}
 //on & off
 exports.ownerOff = () =>{
-	return`My owner has been off`
+	return`Owner saya telah off`
 	}
 exports.ownerOn = () =>{
-	return`My owner is back on`
+	return`Owner saya kembali on`
 	}
